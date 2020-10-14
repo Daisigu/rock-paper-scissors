@@ -1,0 +1,18 @@
+{% extends 'layout.nunj' %}
+{% set activePage="about-us" %}
+
+{% block title %}
+    <title>Hello!</title>
+{% endblock %}
+
+{% block link %}
+{% endblock %}
+
+
+{% block main %}
+    {% include './shared/components/sidebar.nunj' %}
+    {% include './template-pages/about-us/about-us-template.nunj' %}
+{% endblock %}
+
+{% block script %}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'layout.nunj' %}
+{% set activePage="index" %}
+
+{% block title %}
+    <title>Hello!</title>
+{% endblock %}
+
+{% block link %}
+{% endblock %}
+
+
+{% block main %}
+    {% include './shared/components/sidebar.nunj' %}
+    {% include './template-pages/index/index-template.nunj' %}
+{% endblock %}
+
+{% block script %}
+{% endblock %}
